@@ -1,3 +1,4 @@
+
 const fs = require("fs")
 
 function getTodosLivrosFavoritos() {
@@ -24,7 +25,7 @@ function insereLivrosFavoritos (id){
 
 }
 
-module.export = {
+module.exports = {
     getTodosLivrosFavoritos,
     deletaFavoritosPorId,
     insereLivrosFavoritos

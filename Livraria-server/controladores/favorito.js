@@ -1,4 +1,8 @@
-const { getTodosLivros } = require("../servicos/livro")
+const { 
+    getTodosLivrosFavoritos, 
+    insereLivrosFavoritos, 
+    deletaFavoritosPorId 
+} = require("../servicos/favorito")
 
 function getFavoritos(req, res) {
     try {
@@ -38,7 +42,7 @@ function deleteFavorito(req, res){
         }
         
     } catch (error) {
-        req.status(500)
+        res.status(500)
         res.send(error.message)
     }
 }

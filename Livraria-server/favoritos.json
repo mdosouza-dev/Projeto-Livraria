@@ -1,18 +1,6 @@
 [
-    {
-      "id": "9",
-      "nome": "Código Limpo"
-    },
-    {
-      "id": "10",
-      "nome": "JavaScript para iniciantes"
-    },
-    {
-      "id": "11",
-      "nome": "Conhecendo o python"
-    },
-    {
-      "id": "12",
-      "nome": "Imersão Alura"
-    }
-  ]
+  {
+    "id": 1,
+    "nome": "Código Limpo"
+  }
+]
